@@ -19,4 +19,4 @@ if house_0['bathrooms'] == 3:
 elif house_0['bathrooms'] <= 2:
     print("This house is not good.  Not enough shitters")
 else:
-    print("Stay away, this house has to many shitters")
+    print("Stay away, this house has too many shitters")
