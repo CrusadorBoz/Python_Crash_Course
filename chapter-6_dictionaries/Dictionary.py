@@ -17,6 +17,6 @@ print(f"This house has {house_0['bedrooms']} bedrooms")
 if house_0['bathrooms'] == 3:
     print("This house has 3 bathrooms, AWESOME!")
 elif house_0['bathrooms'] <= 2:
-    print("This house is not good.  Not enough shitters")
+    print("This house is not good.  Not enough bathrooms")
 else:
-    print("Stay away, this house has too many shitters")
+    print("Stay away, this house has too many bathrooms")
