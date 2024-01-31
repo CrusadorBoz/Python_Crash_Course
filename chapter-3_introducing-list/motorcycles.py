@@ -1,6 +1,8 @@
+# Create a motorcycle list
 motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 
+# show one element from the motorcycles list
 motorcycles[0] = 'ducati'
 print(motorcycles)
 
