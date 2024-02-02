@@ -1,5 +1,5 @@
 # [] indicate a list.  Individual elements are separated by commas
-bicyles = ['trek', 'cannondale', 'redline', 'specialized']
+bicyles = ['trek', 'cannondale', 'redline', 'diamondback', 'specialized']
 print(bicyles)
 
 # To access elements in a list
