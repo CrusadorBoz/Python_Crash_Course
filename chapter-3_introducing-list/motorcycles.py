@@ -34,3 +34,12 @@ print(popped_MoCompanies)
 # We can use the pop to print a sequece like if the motorcycles where in the order you owned them
 first_owned = motorcycles.pop(0)
 print(f"This first brand of motorcyle I owned was a {first_owned.title()}.")
+
+# you can remove an element when you do not know the position
+motorcycle_list = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycle_list)
+
+too_expensive = 'ducati'
+motorcycle_list.remove('ducati')
+print(motorcycle_list)
+print(f"\nA {too_expensive.title()} is too expensive for me.")
