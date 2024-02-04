@@ -25,4 +25,4 @@ cars_two.reverse()
 print(cars_two)
 
 ### Finding a length of a list ###
-print(len(cars_two))
+print(len(cars_two))  ## the len function starts from 1, not 0.
