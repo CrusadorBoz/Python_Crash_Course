@@ -23,3 +23,6 @@ print(cars_two)
 print("\nHere is the list reversed using the reverse method -- it is permanent")
 cars_two.reverse()
 print(cars_two)
+
+### Finding a length of a list ###
+print(len(cars_two))
