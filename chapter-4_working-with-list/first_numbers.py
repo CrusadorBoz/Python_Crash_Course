@@ -7,3 +7,7 @@ print("------")
 # To print actual 1 through 5
 for value in range(1, 6):
     print(value)
+
+# You can assign a range of numbers to a list
+numbers = list(range(1, 6))
+print(numbers)
