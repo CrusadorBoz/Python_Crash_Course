@@ -16,3 +16,6 @@ print(players[-3:])
 print("Here are the fierst three players on my team:")
 for player in players[:3]:
     print(player.title())
+
+# The loop slice is useful.  You could add a player's final score to everytime 
+# a player finishes a game.  You can than list the top three scores.
