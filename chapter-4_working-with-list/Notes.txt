@@ -1,3 +1,21 @@
 List are great for storing items that will change during life of the program
-Tuples look like a list, but you use {} They cannot be changed during the life of the 
+Tuples look like a list, but you use () They cannot be changed during the life of the 
 program.
+
+# Copying list
+
+    my_foods = ['pizza', 'falafel', 'carrot cake']
+    friend_foods = my_foods[:]
+
+# Note: you have to use slice.  friends_foods = my_foods does not work.
+# Slicing is the [:], enables selection of certain elements.
+
+Use slicing data for selecting certain number of elements.
+# Slicing a list - working with certain number of elements in a list
+
+    players = ['charles', 'martina', 'michael', 'florence', 'eli']
+    print(len(players))
+    print(players[0:3])
+
+line length: Limit the line to 80 characters of code.  comments: limit to 70
+
