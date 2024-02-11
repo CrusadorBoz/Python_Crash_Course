@@ -1,0 +1,3 @@
+List are great for storing items that will change during life of the program
+Tuples look like a list, but you use {} They cannot be changed during the life of the 
+program.
