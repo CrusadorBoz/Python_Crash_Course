@@ -5,8 +5,7 @@ squares = [value ** 2 for value in range(1, 11)]
 # Try to do them when you are typing multiple lines.
 print(squares)
 
-### Exercise 1 ### 
+# Exercise 1
 # Write a program to create a list of 1,000,000 numbers.  The print
 million = [value + 1 for value in range(1, 10000000)]
 print(sum(million))
-print(million)
