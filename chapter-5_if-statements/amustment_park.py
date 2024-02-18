@@ -1,4 +1,4 @@
-age = 19
+age = 25
 if age < 4:
     price = 0
     # Redundant
@@ -7,8 +7,10 @@ elif age < 18:
     price = 25
     # Redundant
     # print("Your admission cost is $25")
-else:
+elif age < 65:
     price = 40
+else:
+    price = 20
     # Redundant
     # print("Your admission cost is $40")
 
