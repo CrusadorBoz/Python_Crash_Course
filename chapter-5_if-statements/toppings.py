@@ -8,7 +8,7 @@ if 'pepperoni' in requested_toppings:
 if 'extra cheese' in requested_toppings:
     print('Adding Extra Cheese.')
 
-print(f"\nWe have finished making your pizza\n")
+print(f"\n*** We have finished making your pizza ***\n\n")
 
 
 # printing all the requested items. Checking for special items
@@ -18,7 +18,7 @@ for requested_toppings in requested_toppings:
     else:
         print(f"Adding {requested_toppings}")
 
-print(f"\nWe have finished making your pizza\n\n")
+print(f"\n*** We have finished making your pizza ***\n")
 
 
 # Checking if list is empty
@@ -29,4 +29,4 @@ if toppings_requested:
         print(f"Adding {toppings_requested}.")
     print(f"\nWe have finished making your pizza")
 else:
-    print("Are you sure you want a plain pizza")
+    print("*** Are you sure you want a plain pizza ***")
