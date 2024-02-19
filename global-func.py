@@ -5,6 +5,7 @@ global_var = 10
 # by creating a local variable inside the function tied to the global
 # increases the performance +10%
 
+
 def func():
     ans = 0
     local_var = global_var  # include this before the for loop
@@ -12,5 +13,6 @@ def func():
         ans += global_var * i
     return ans
     
+
 func()
 print("Function is completed")
