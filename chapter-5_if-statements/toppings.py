@@ -1,4 +1,7 @@
-requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+available_toppings = ['mushrooms', 'olives', 'green peppers', 
+                      'pepperoni', 'pineapple', 'extra cheese']
+
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
 # We cannot use elif on this one because it would break out and not work.
 if 'mushrooms' in requested_toppings:
@@ -29,4 +32,4 @@ if toppings_requested:
         print(f"Adding {toppings_requested}.")
     print(f"\nWe have finished making your pizza")
 else:
-    print("*** Are you sure you want a plain pizza ***")
+    print("*** Are you sure you want a plain pizza ***\n")
