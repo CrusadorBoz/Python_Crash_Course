@@ -1,1 +1,11 @@
 Checking for equality:
+
+# It looks like you need to keep the = or > with no spaces after the variable. 
+if ((age_0> 21) and (age_1>= 15)):
+    print("The condition statement worked")
+else:
+    print("The condition statement did not work")
+
+
+# The == test to see if the value of cars match.
+# The == is asking a question if the value equals car.
