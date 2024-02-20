@@ -12,7 +12,7 @@ for item in old:
         new.append(item)
     
 # You can use a dictionary to remove dups - improved way
-best_dictionary = dict.fromkeys(old)  # This creates a dictionary...they cannot have dups
+best_dictionary = dict.fromkeys(old)  # This creates a dictionary...they cannot have duplicates
 best = list(dict.fromkeys(old))
 
 print(noorder)
