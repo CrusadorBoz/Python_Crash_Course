@@ -1,18 +1,18 @@
 import random
 
-print( "Welcome to the Coin Flipping Game!" )
+print("Welcome to the Coin Flipping Game!")
 
-choice=input("Enter your side (heads or tails) ")
+choice = input("Enter your side (heads or tails) ")
 
-num=random.randint(1,2)
+num = random.randint(1, 2)
 
-if num==1:
-    result="heads"
+if num == 1:
+    result = "heads"
 
-elif num==2:
-    result="tails"
+elif num == 2:
+    result = "tails"
 
-if choice==result:
+if choice == result:
     print("Good Job!  You won.  The coin flipped ", result)
 
 else:
