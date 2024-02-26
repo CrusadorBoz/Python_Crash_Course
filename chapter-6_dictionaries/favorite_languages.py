@@ -20,3 +20,8 @@ print("----------------------------------------------------")
 # Looping through the dictionary
 for name, language in favorite_languages.items():
     print(f"{name.title()}'s favorite language is {language.title()}.")
+
+print("----------------------------------------------------")
+
+for name in favorite_languages.keys():
+    print(name.title())
