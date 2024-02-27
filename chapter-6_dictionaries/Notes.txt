@@ -1,2 +1,8 @@
 Dictionaries can store limitless amounts of data.
 we use {} to create a dictionary vs. using [] for a list.
+
+You can loop through the keys.
+    for name in favorite_languages.keys():
+
+You can loop through the values.
+    for value in favorite_languages.values():

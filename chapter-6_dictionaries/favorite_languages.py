@@ -12,7 +12,7 @@ print(favorite_languages['sarah'])
 
 # To use the get() function to access values
 # we will use John to show that we can return a message if not there
-jon_value = favorite_languages.get('john', 'There is not data for this key')
+jon_value = favorite_languages.get('john', 'There is no data for this key')
 print(jon_value)
 
 print("----------------------------------------------------")
@@ -25,3 +25,8 @@ print("----------------------------------------------------")
 
 for name in favorite_languages.keys():
     print(name.title())
+
+print("----------------------------------------------------")
+
+for value in favorite_languages.values():
+    print(value.title())
