@@ -1,4 +1,4 @@
-# You can check to see if their is a variable in a list
+# You can check to see if there is a variable in a list
 requested_toppings = ['mushrooms', 'onions', 'pinneapple']
 print('mushrooms' in requested_toppings)
 
