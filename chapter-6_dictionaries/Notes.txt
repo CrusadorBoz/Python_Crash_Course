@@ -6,3 +6,7 @@ You can loop through the keys.
 
 You can loop through the values.
     for value in favorite_languages.values():
+
+You can store a dictionaries in a list.  Think about how we stored the aliens dictionaries in the list example.
+You could build an army of aliens inside a list.     
+[{'color': 'yellow', 'points': 10, 'speed': 'slow', 'spped': 'medium'}]
