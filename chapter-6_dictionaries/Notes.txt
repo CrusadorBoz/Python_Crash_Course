@@ -10,3 +10,9 @@ You can loop through the values.
 You can store a dictionaries in a list.  Think about how we stored the aliens dictionaries in the list example.
 You could build an army of aliens inside a list.     
 [{'color': 'yellow', 'points': 10, 'speed': 'slow', 'spped': 'medium'}]
+
+You can store a list in a dictionary:
+    pizza = {
+        'crust': 'thick',
+        'toppings': ['mushrooms', 'extra cheese']
+    }   
