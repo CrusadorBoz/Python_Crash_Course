@@ -5,6 +5,13 @@ favorite_languages = {
     'phil': 'python',
 }
 
+favorite_languages2 = {
+    'jen': ['python', 'rust'],
+    'sarah': ['c'],
+    'edward': ['rust', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
 # You can look up a certain person to see what language they like
 language = favorite_languages['sarah'].title()
 print(f"Sarah's Favorite language is {language}.")
@@ -66,3 +73,28 @@ print("----------------------------------------------------")
 
 languages = {'python', 'rust', 'python', 'c'}  # This is a set.  Does not allow duplicates.  Looks like a Dictionary
 print(languages)
+
+print("----------------------------------------------------")
+
+for name, languages in favorite_languages2.items():
+    print(f"\n{name.title()}'s favorite languages are:")
+    for language in languages:
+        print(f"\t{language.title()}")
+
+
+# Challenge to have it print:
+# You do this by putting a if statement at the beginning of the dictionary loop.
+
+# Jen's favorite languages are:
+#         Python
+#         Rust
+
+# Sarah's favorite language is C
+
+# Edward's favorite languages are:
+#         Rust
+#         Go
+
+# Phil's favorite languages are:
+#         Python
+#         Haskell
