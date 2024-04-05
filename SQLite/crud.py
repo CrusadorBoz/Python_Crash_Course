@@ -50,7 +50,7 @@ for pilot in retrieve_pilots():
     print(f"ID: {pilot[0]}, Name: {pilot[1]}, DOB: {pilot[2]}")
 
 # Update pilot with ID 1
-update_pilot(1, "John Updated", "1990-05-15")
+update_pilot(3, "Jane Updated", "1990-05-15")
 
 print("\nUpdated pilots:")
 for pilot in retrieve_pilots():
