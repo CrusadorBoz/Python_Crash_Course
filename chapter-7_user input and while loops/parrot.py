@@ -4,10 +4,11 @@
 
 # ------------------------------------------------------------
 
-prompt = "Tell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit' to end the program. \n"
+prompt = "Tell me something, and I will repeat it back to you."
+prompt += "\nEnter 'quit' to end the program. "
+prompt += "\n: "
 
 message = ""
 while message != 'quit':
     message = input(prompt)
-    print(message)
+    print(f"You said, '{message}'.\n")
