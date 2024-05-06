@@ -11,4 +11,6 @@ prompt += "\n: "
 message = ""
 while message != 'quit':
     message = input(prompt)
-    print(f"You said, '{message}'.\n")
+    
+    if message != 'quit':
+        print(f"You said, '{message}'.\n")
