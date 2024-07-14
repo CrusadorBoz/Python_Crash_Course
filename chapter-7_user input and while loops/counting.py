@@ -8,6 +8,7 @@
 current_number = 0
 while current_number < 10:
     current_number += 1
+    print(current_number)
     if current_number % 2 == 0:
-        print(current_number)
+        # print(current_number)
         continue
