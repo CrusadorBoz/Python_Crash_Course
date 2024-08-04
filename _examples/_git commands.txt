@@ -1,3 +1,6 @@
+*** To Update the code - Do this at the beginning ***
+git pull
+
 *** To Up Date Files ***
 git add .
 git commit -a -m "Update Files"
